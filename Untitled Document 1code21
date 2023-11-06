@@ -1,0 +1,16 @@
+print("1-+,2- -,3-*,4-/")
+i=int(input("select the operation 1,2,3,4"))
+n1=int(input("enter the first number"))
+n2=int(input("enter the second number"))
+if i=='1':
+     print(n1,"+",n2,"=",add(n1,n2))
+elif i=='2':
+    print(n1-n2)
+elif i=='3':
+    print(n1*n2)
+elif i=='4':
+    print(n1/n2)
+else:
+   print("no operation selected")
+
+       
